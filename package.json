@@ -1,0 +1,20 @@
+{
+  "name": "zephyr-mf-transfers-app-demo",
+  "version": "1.0.0",
+  "description": "Rsbuild Module Federation example with Zephyr",
+  "private": true,
+  "scripts": {
+    "build": "pnpm build-shared-ui && pnpm build-transfers && pnpm build-balances && pnpm build-reports && pnpm build-ledger && pnpm build-settings && pnpm build-consumer",
+    "build-shared-ui": "pnpm --filter=./apps/shared-ui-app build",
+    "build-transfers": "pnpm --filter=./apps/transfers-app build",
+    "build-balances": "pnpm --filter=./apps/balances-app build",
+    "build-reports": "pnpm --filter=./apps/reports-app build",
+    "build-ledger": "pnpm --filter=./apps/ledger-app build",
+    "build-settings": "pnpm --filter=./apps/settings-app build",
+    "build-consumer": "pnpm --filter=./apps/consumer-shell build",
+    "dev": "pnpm --filter=./apps/shared-ui-app dev & pnpm --filter=./apps/transfers-app dev & pnpm --filter=./apps/balances-app dev & pnpm --filter=./apps/reports-app dev & pnpm --filter=./apps/ledger-app dev & pnpm --filter=./apps/settings-app dev & pnpm --filter=./apps/consumer-shell dev"
+  },
+  "keywords": ["rsbuild", "module-federation", "zephyr"],
+  "author": "",
+  "license": "MIT"
+}
