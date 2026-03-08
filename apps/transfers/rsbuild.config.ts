@@ -13,10 +13,11 @@ export default defineConfig({
       exposes: {
         "./transfers": "./src/App.tsx",
       },
-      remotes: {
-        federated_shared_ui:
-          "federated_shared_ui@http://localhost:3000/mf-manifest.json",
-      },
+      // zephyr cloud has issues with this remote, i'm not sure why
+      // remotes: {
+      //   federated_shared_ui:
+      //     "federated_shared_ui@http://localhost:3000/mf-manifest.json",
+      // },
       shared: ["react", "react-dom", "bootstrap"],
     }),
     withZephyr(),

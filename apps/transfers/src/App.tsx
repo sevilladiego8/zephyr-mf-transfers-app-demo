@@ -1,16 +1,19 @@
 import "./App.scss";
-import { Suspense, lazy, useState } from "react";
+// import { Suspense, lazy, useState } from "react";
 
+/*
+for later: Zephyr cloud deploy have issues with this remotes
 const FederatedButton = lazy(() => import("federated_shared_ui/button"));
 const FederatedInput = lazy(() => import("federated_shared_ui/input"));
 const FederatedTextArea = lazy(() => import("federated_shared_ui/textarea"));
 const FederatedAnalyticsChart = lazy(
   () => import("federated_shared_ui/analytics-chart"),
 );
+*/
 
 const App = () => {
-  const [email, setEmail] = useState("");
-  const [txtAreaMsg, setTxtAreaMsg] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [txtAreaMsg, setTxtAreaMsg] = useState("");
 
   return (
     <div className="transfers-page">
@@ -18,7 +21,7 @@ const App = () => {
       <h2>Remote</h2>
       <p>Transfers page here</p>
 
-      <Suspense fallback={null}>
+      {/*<Suspense fallback={null}>
         <div className="container mt-3">
           <FederatedButton
             text="Submit"
@@ -59,7 +62,7 @@ const App = () => {
             ]}
           />
         </div>
-      </Suspense>
+      </Suspense>*/}
     </div>
   );
 };

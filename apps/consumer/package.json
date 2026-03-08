@@ -1,5 +1,5 @@
 {
-  "name": "consumer-shell7",
+  "name": "consumer-shell11",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -26,11 +26,11 @@
     "zephyr-rsbuild-plugin": "latest"
   },
   "zephyr:dependencies": {
-    "federated_shared_ui": "shared-ui-app7@*",
-    "federated_transfers": "transfers-app7@*",
-    "federated_balances": "balances-app7@*",
-    "federated_reports": "reports-app7@*",
-    "federated_ledger": "ledger-app7@*",
-    "federated_settings": "settings-app7@*"
+    "federated_shared_ui": "shared-ui-app11@*",
+    "federated_transfers": "transfers-app11@*",
+    "federated_balances": "balances-app11@*",
+    "federated_reports": "reports-app11@*",
+    "federated_ledger": "ledger-app11@*",
+    "federated_settings": "settings-app11@*"
   }
 }
