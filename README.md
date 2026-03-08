@@ -47,7 +47,10 @@ The example is basically a demo transfers app with different pages which can be 
 
 ## MF React Transfers Demo App
 
-<video src="./imgs/react-rsbuild-mf-transfers.mp4" controls width="600"></video>
+<p align="center">
+<video src="./imgs/react-rsbuild-mf-transfers_compressed.mp4" controls width="600"></video>
+</p>
+
 
  - Consumer Shell - https://ds-dev-950-consumer-shell11-zephyr-mf-transfers-a-d2557ebe6-ze.zephyrcloud.app/
     - Transfers App - https://ds-dev-945-transfers-app11-zephyr-mf-transfers-ap-fe02f382a-ze.zephyrcloud.app/
