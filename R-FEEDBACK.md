@@ -80,7 +80,7 @@ I had to manually configure the Module Federation plugin in the rsbuild (webpack
 1. Zephyr is a very interesting tool that provides value by fast forwarding complexities and problems related to module-federation and micro-frontends, furthermore it completely removes the need to create ci/cd pipelines that deploy the apps automatically
 2. Zephyr has first-class support for micro-frontends based on Module Federation applications. The docs offer micro-frontend guides about deploying MF apps, resolving remote dependencies, and managing versions/environments.
 3. I discovered some issues that blocked me temporarily, but I might need to research zephyr internals better in order to understand the issues deeper.
-4. I would probably stick to NX + Zephyr for a more fast forward setup of the apps, `less error prone` and module federation setup.
+4. I would probably stick to NX + Zephyr for a more fast forward setup of the apps, `less error prone` project and faster module federation setup.
 5. This public example doesn't have a `README.md` [mf-read-rsbuild](https://github.com/ZephyrCloudIO/zephyr-examples/tree/main/vanilla/examples/mf-react-rsbuild-1), adding a readme always serves as a guide to understand the example easier and better
 
 
