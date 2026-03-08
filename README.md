@@ -42,7 +42,7 @@ The example is basically a demo transfers app with different pages which can be 
 
 - https://docs.zephyr-cloud.io/
 
-# Links
+# Deployed Apps (Links)
 
 ## MF React Transfers Demo App
 
