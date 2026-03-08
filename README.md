@@ -46,6 +46,9 @@ The example is basically a demo transfers app with different pages which can be 
 # Links
 
 ## MF React Transfers Demo App
+
+<video src="./imgs/react-rsbuild-mf-transfers.mp4" controls width="600"></video>
+
  - Consumer Shell - https://ds-dev-950-consumer-shell11-zephyr-mf-transfers-a-d2557ebe6-ze.zephyrcloud.app/
     - Transfers App - https://ds-dev-945-transfers-app11-zephyr-mf-transfers-ap-fe02f382a-ze.zephyrcloud.app/
     - Balances App - https://ds-dev-946-balances-app11-zephyr-mf-transfers-app-40a7278be-ze.zephyrcloud.app/
@@ -53,9 +56,6 @@ The example is basically a demo transfers app with different pages which can be 
     - Ledger App - https://ds-dev-948-ledger-app11-zephyr-mf-transfers-app-d-983993f85-ze.zephyrcloud.app/
     - Settings App - https://ds-dev-949-settings-app11-zephyr-mf-transfers-app-cd2ad3d94-ze.zephyrcloud.app/
     - Share UI APP - https://ds-dev-944-shared-ui-app11-zephyr-mf-transfers-ap-01320d867-ze.zephyrcloud.app/
-
-
-    <video src="./imgs/react-rsbuild-mf-transfers.mp4" controls width="600"></video>
 
 
 ## [NX Simple App](https://docs.zephyr-cloud.io/integrations/react-rspack-nx)
