@@ -48,7 +48,7 @@ The example is basically a demo transfers app with different pages which can be 
 
 Watch the video demo: Navigation -> Zephyr Cloud Dashboard -> Shared UI
 
-[![Watch the demo](./imgs/demo-thumbnail.png)](https://www.youtube.com/watch?v=aKRjkLDCtq4)
+[![Watch the demo](./imgs/demo-thumb.png)](https://www.youtube.com/watch?v=aKRjkLDCtq4)
 
 - Consumer Shell - https://ds-dev-950-consumer-shell11-zephyr-mf-transfers-a-d2557ebe6-ze.zephyrcloud.app/
   - Share UI APP - https://ds-dev-944-shared-ui-app11-zephyr-mf-transfers-ap-01320d867-ze.zephyrcloud.app/
