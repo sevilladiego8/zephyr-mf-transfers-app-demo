@@ -1,14 +1,12 @@
 import { Link } from "react-router-dom";
 
-// The remote component provided by federated_shared_ui
-import FederatedButton from "federated_shared_ui/button";
-
 type NavBarProps = {
   links: { label: string; href: string }[];
+  FederatedButton: any;
 };
 
 const Navbar = (props: NavBarProps) => {
-  const { links } = props;
+  const { links, FederatedButton } = props;
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
       <div className="container-fluid">
@@ -59,12 +57,13 @@ const Navbar = (props: NavBarProps) => {
                 </li>
               ))}
             </ul>
-            <FederatedButton
+            {/*<FederatedButton
               text="Federate"
               type="button"
               variant="success"
               onClick={() => console.log("Clicked")}
-            />
+            />*/}
+            <FederatedButton />
           </div>
         </div>
       </div>

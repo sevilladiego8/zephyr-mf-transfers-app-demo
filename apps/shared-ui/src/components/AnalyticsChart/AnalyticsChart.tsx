@@ -1,4 +1,4 @@
-import './AnalyticsChart.css'
+import './AnalyticsChart.scss'
 
 import React from "react";
 

@@ -1,10 +1,12 @@
-import "./Input.css";
+import "./Input.scss";
+
+import { ChangeEvent } from "react";
 
 type InputProps = {
   id: string;
   type: string;
   value: any;
-  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  onChange: (e: ChangeEvent<HTMLInputElement>) => void;
   placeholder?: string;
   disabled?: boolean;
   className?: string;
@@ -24,6 +26,7 @@ const Input = (props: InputProps) => {
   return (
     <>
       <input
+        {...props}
         className={`shared-input form-control ${className}`}
         id={id}
         type={type}
@@ -31,7 +34,6 @@ const Input = (props: InputProps) => {
         onChange={onChange}
         placeholder={placeholder}
         disabled={disabled}
-        {...props}
       />
     </>
   );

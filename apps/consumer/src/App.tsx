@@ -1,17 +1,17 @@
-import "./App.css";
+import "./App.scss";
 
 import { Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 
-
 import Navbar from "./components/Navbar/Navbar";
 
+// The remote component provided by federated_shared_ui
+import FederatedButton from "federated_shared_ui/button";
 import TransfersPage from "federated_transfers/transfers";
 import BalancesPage from "federated_balances/balances";
 import ReportsPage from "federated_reports/reports";
 import LedgerPage from "federated_ledger/ledger";
 import SettingsPage from "federated_settings/settings";
-
 
 const App = () => {
   const links = [
@@ -24,7 +24,17 @@ const App = () => {
 
   return (
     <>
-      <Navbar links={links} />
+      <Navbar
+        links={links}
+        FederatedButton={
+          <FederatedButton
+            text="Federate"
+            type="button"
+            variant="success"
+            onClick={() => console.log("Clicked")}
+          />
+        }
+      />
       <Suspense fallback={null}>
         <Routes>
           <Route path="/" element={<TransfersPage />} />
@@ -39,3 +49,17 @@ const App = () => {
 };
 
 export default App;
+
+/**
+ * 
+ * 
+
+
+          <FederatedInput
+            id="email"
+            type="email"
+            value={"aaaa"}
+            placeholder="Enter email"
+            // onChange={(e) => setEmail(e.target.value)}
+          />
+ */

@@ -1,9 +1,11 @@
-import "./TextArea.css";
+import "./TextArea.scss";
+
+import { ChangeEvent } from "react";
 
 type TextareaProps = {
   id: string;
   value: any;
-  onChange: (e: React.ChangeEvent<HTMLTextAreaElement>) => void;
+  onChange: (e: ChangeEvent<HTMLTextAreaElement>) => void;
   rows?: number;
   placeholder?: string;
   disabled?: boolean;
@@ -24,6 +26,7 @@ const Textarea = (props: TextareaProps) => {
   return (
     <>
       <textarea
+        {...props}
         className={`form-control ${className}`}
         id={id}
         value={value}
@@ -31,7 +34,6 @@ const Textarea = (props: TextareaProps) => {
         placeholder={placeholder}
         disabled={disabled}
         onChange={onChange}
-        {...props}
       />
     </>
   );

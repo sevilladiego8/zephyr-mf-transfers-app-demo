@@ -1,4 +1,4 @@
-import "./Table.css";
+import "./Table.scss";
 
 type TableProps = {
   id?: string;

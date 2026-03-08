@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 
-import 'bootstrap/dist/js/bootstrap.esm.js';
+import '../node_modules/bootstrap/dist/js/bootstrap.esm.js';
 import '../src/scss/styles.scss';
 
 import App from './App';

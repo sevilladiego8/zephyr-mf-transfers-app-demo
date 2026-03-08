@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 import LocalButton from "./components/Button/Button";
-import LocalInput from "./Input/Input";
-import LocalTextArea from "./TextArea/TextArea";
+import LocalInput from "./components/Inputs/Input/Input";
+import LocalTextArea from "./components/Inputs/TextArea/TextArea";
 import LocalAnalyticsChart from "./components/AnalyticsChart/AnalyticsChart";
 
 const App = () => {

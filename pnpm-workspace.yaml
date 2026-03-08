@@ -1,9 +1,10 @@
 packages:
-  - "apps/shared-ui"
-  - "apps/transfers"
-  - "apps/balances"
-  - "apps/reports"
-  - "apps/ledger"
-  - "apps/settings"
-  - "apps/consumer"
+  - 'apps/shared-ui'
+  - 'apps/transfers'
+  - 'apps/balances'
+  - 'apps/reports'
+  - 'apps/ledger'
+  - 'apps/settings'
+  - 'apps/consumer'
+
   
