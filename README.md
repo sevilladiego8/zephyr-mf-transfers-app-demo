@@ -11,7 +11,7 @@ Federated Transfers Demo App with Zaphyr, RsBuild and React
 
 This repo features the usage of Zephyr, RsBuild and React in a project using module-federation for micro-frontends.
 
-The example is basically a demo transfers app with different pages which can be independently deployed to zephyr cloud.
+The example is basically a demo transfers app with different pages which can be independently deployed to zephyr cloud relying only on Zephyr’s default Cloud integration.
 
 # Tools
 
