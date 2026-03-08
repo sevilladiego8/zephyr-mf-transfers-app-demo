@@ -32,11 +32,11 @@ The example is basically a demo transfers app with different pages which can be 
 1. Install the necessary dependencies using `pnpm install`(recommended) or `npm install`.
 2. Install dependecies in `root` directory
 3. Install dependecies on each app `./apps/*`
-4. pnpm run dev
+4. run `pnpm run dev`
 
 # Deployment
 
-1. pnpm run build
+1. run `pnpm run build`
 
 # References
 
