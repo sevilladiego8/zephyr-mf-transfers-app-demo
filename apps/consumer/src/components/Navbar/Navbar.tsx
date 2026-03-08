@@ -1,12 +1,14 @@
+import { lazy } from "react";
 import { Link } from "react-router-dom";
+
+const FederatedButton = lazy(() => import("federated_shared_ui/button"));
 
 type NavBarProps = {
   links: { label: string; href: string }[];
-  FederatedButton: any;
 };
 
 const Navbar = (props: NavBarProps) => {
-  const { links, FederatedButton } = props;
+  const { links } = props;
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
       <div className="container-fluid">
@@ -27,7 +29,7 @@ const Navbar = (props: NavBarProps) => {
 
         <div
           className="offcanvas offcanvas-end"
-          tabIndex="-1"
+          tabIndex={Number("-1")}
           id="mainNavbar"
           aria-labelledby="mainNavbarLabel"
         >
@@ -57,13 +59,12 @@ const Navbar = (props: NavBarProps) => {
                 </li>
               ))}
             </ul>
-            {/*<FederatedButton
+            <FederatedButton
               text="Federate"
               type="button"
               variant="success"
               onClick={() => console.log("Clicked")}
-            />*/}
-            <FederatedButton />
+            />
           </div>
         </div>
       </div>

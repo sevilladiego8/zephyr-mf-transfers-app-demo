@@ -12,6 +12,8 @@
     "build-ledger": "pnpm --filter=ledger-app build",
     "build-settings": "pnpm --filter=settings-app build",
     "build-consumer": "pnpm --filter=consumer-shell build",
+    "dev-ui": "pnpm --filter=shared-ui-app dev",
+    "dev-apps": "pnpm --filter=transfers-app dev & pnpm --filter=balances-app dev & pnpm --filter=reports-app dev & pnpm --filter=ledger-app dev & pnpm --filter=settings-app dev & pnpm --filter=consumer-shell dev",
     "dev": "pnpm --filter=shared-ui-app dev & pnpm --filter=transfers-app dev & pnpm --filter=balances-app dev & pnpm --filter=reports-app dev & pnpm --filter=ledger-app dev & pnpm --filter=settings-app dev & pnpm --filter=consumer-shell dev"
   },
   "keywords": [
