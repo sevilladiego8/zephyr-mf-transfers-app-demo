@@ -47,6 +47,8 @@ The example is basically a demo transfers app with different pages which can be 
 
 ## MF React Transfers Demo App
 
+Watch the video demo: Navigation -> Zephyr Cloud Dashboard -> Shared UI
+
 [![Watch the demo](./imgs/demo-thumbnail.png)](https://www.youtube.com/watch?v=aKRjkLDCtq4)
 
 
