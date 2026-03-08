@@ -1,20 +1,21 @@
 {
-  "name": "zephyr-mf-transfers-app-demo2",
+  "name": "zephyr-mf-transfers-app-demo-7",
   "version": "1.0.0",
   "description": "Rsbuild Module Federation example with Zephyr",
   "private": true,
   "scripts": {
+    "install-deps": "cd ./apps/balances && pnpm install & cd ./apps/consumer && pnpm install & cd ./apps/ledge && pnpm install & cd ./apps/reports && pnpm install & cd ./apps/settings && pnpm install & cd ./apps/shared-ui && pnpm install & cd ./apps/transfers && pnpm install & pnpm install",
     "build": "pnpm build-shared-ui && pnpm build-transfers && pnpm build-balances && pnpm build-reports && pnpm build-ledger && pnpm build-settings && pnpm build-consumer",
-    "build-shared-ui": "pnpm --filter=shared-ui-app build",
-    "build-transfers": "pnpm --filter=transfers-app build",
-    "build-balances": "pnpm --filter=balances-app build",
-    "build-reports": "pnpm --filter=reports-app build",
-    "build-ledger": "pnpm --filter=ledger-app build",
-    "build-settings": "pnpm --filter=settings-app build",
-    "build-consumer": "pnpm --filter=consumer-shell build",
-    "dev-ui": "pnpm --filter=shared-ui-app dev",
-    "dev-apps": "pnpm --filter=transfers-app dev & pnpm --filter=balances-app dev & pnpm --filter=reports-app dev & pnpm --filter=ledger-app dev & pnpm --filter=settings-app dev & pnpm --filter=consumer-shell dev",
-    "dev": "pnpm --filter=shared-ui-app dev & pnpm --filter=transfers-app dev & pnpm --filter=balances-app dev & pnpm --filter=reports-app dev & pnpm --filter=ledger-app dev & pnpm --filter=settings-app dev & pnpm --filter=consumer-shell dev"
+    "build-shared-ui": "pnpm --filter=shared-ui-app7 build",
+    "build-transfers": "pnpm --filter=transfers-app7 build",
+    "build-balances": "pnpm --filter=balances-app7 build",
+    "build-reports": "pnpm --filter=reports-app7 build",
+    "build-ledger": "pnpm --filter=ledger-app7 build",
+    "build-settings": "pnpm --filter=settings-app7 build",
+    "build-consumer": "pnpm --filter=consumer-shell7 build",
+    "dev-ui": "pnpm --filter=shared-ui-app7 dev",
+    "dev-apps": "pnpm --filter=transfers-app7 dev & pnpm --filter=balances-app7 dev & pnpm --filter=reports-app7 dev & pnpm --filter=ledger-app7 dev & pnpm --filter=settings-app7 dev & pnpm --filter=consumer-shell7 dev",
+    "dev": "pnpm --filter=shared-ui-app7 dev & pnpm --filter=transfers-app7 dev & pnpm --filter=balances-app7 dev & pnpm --filter=reports-app7 dev & pnpm --filter=ledger-app7 dev & pnpm --filter=settings-app7 dev & pnpm --filter=consumer-shell7 dev"
   },
   "keywords": [
     "rsbuild",

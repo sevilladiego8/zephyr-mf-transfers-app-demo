@@ -1,10 +1,10 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 
-import '../node_modules/bootstrap/dist/js/bootstrap.esm.js';
+import 'bootstrap/dist/js/bootstrap.esm.js';
 import './scss/styles.scss';
 
-import App from './App';
+import App from './App.js';
 
 const container = document.getElementById('root');
 

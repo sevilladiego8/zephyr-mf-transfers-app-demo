@@ -1,11 +1,13 @@
 body {
   margin: 0;
-  color: #fff;
+  color: rgb(0, 0, 101);
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  background-image: linear-gradient(to bottom, #020917, #101725);
+  background-color: rgb(240, 244, 255);
 }
 
-.transfers-page {
+
+
+.balances-page {
   display: flex;
   min-height: 100vh;
   line-height: 1.1;
@@ -14,12 +16,12 @@ body {
   justify-content: center;
 }
 
-.transfers-page h1 {
+.balances-page h1 {
   font-size: 3.6rem;
   font-weight: 700;
 }
 
-.transfers-page p {
+.balances-page p {
   font-size: 1.2rem;
   font-weight: 400;
   opacity: 0.5;

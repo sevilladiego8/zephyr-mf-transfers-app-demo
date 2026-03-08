@@ -32,11 +32,11 @@ Check my zephyr feedback here:
 
 # Development
 
-> You will need an account on zephyr cloud to manage your deployed applications
+> You will need to create a zephyr account to manage your deployed applications
 
 1. Install the necessary dependencies using `pnpm install`(recommended) or `npm install`.
 2. Install dependecies in `root` directory
-3. Install dependecies on each app inside `./apps/*`
+3. Install dependecies on each app `./apps/*`
 4. pnpm run dev
 
 # Deployment

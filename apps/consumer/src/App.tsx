@@ -14,7 +14,6 @@ import Navbar from "./components/Navbar/Navbar";
 // import LedgerPage from "federated_ledger/ledger";
 // import SettingsPage from "federated_settings/settings";
 
-// const FederatedButton = lazy(() => import("federated_shared_ui/button"));
 const TransfersPage = lazy(() => import("federated_transfers/transfers"));
 const BalancesPage = lazy(() => import("federated_balances/balances"));
 const ReportsPage = lazy(() => import("federated_reports/reports"));
