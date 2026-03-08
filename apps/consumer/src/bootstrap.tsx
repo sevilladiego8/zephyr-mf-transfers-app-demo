@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import { createRoot } from "react-dom/client";
 
 import '../node_modules/bootstrap/dist/js/bootstrap.esm.js';
-import '../src/scss/styles.scss';
+import './scss/styles.scss';
 
 import App from "./App";
 
