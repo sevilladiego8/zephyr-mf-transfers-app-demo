@@ -22,7 +22,7 @@ The example is basically a demo transfers app with different pages which can be 
 - Bootstrap 💄 - 5.3.8
 
 
-# Zephyr Feedback here:
+# My Zephyr Feedback:
 - [FEEDBACK](./R-FEEDBACK.md)
 
 # Development
@@ -58,7 +58,7 @@ The example is basically a demo transfers app with different pages which can be 
     <video src="./imgs/react-rsbuild-mf-transfers.mp4" controls width="600"></video>
 
 
-## NX Simple App
+## [NX Simple App](https://docs.zephyr-cloud.io/integrations/react-rspack-nx)
 
 - Host - https://ds-dev-156-mf-nx-rspack-host-react-nx-rspack-mf-1-6e713216c-ze.zephyrcloud.app/ 
   - Remote 1 - https://ds-dev-154-remote1-react-nx-rspack-mf-1-sevilladi-08d99aaad-ze.zephyrcloud.app/
