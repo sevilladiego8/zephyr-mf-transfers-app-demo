@@ -47,7 +47,7 @@ The example is basically a demo transfers app with different pages which can be 
 
 ## MF React Transfers Demo App
 
-[Watch the demo video](./imgs/react-rsbuild-mf-transfers_compressed.mp4)
+[![Watch the demo](./imgs/demo-thumbnail.png)](https://www.youtube.com/watch?v=aKRjkLDCtq4)
 
 
  - Consumer Shell - https://ds-dev-950-consumer-shell11-zephyr-mf-transfers-a-d2557ebe6-ze.zephyrcloud.app/
