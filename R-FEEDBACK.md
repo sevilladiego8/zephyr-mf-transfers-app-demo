@@ -59,7 +59,7 @@ Zephyr does not currently present SSR for micro-frontends as a broadly supported
 
 ## 5. Automate MF configuration
 
-I had to manually configure the Module Federation plugin when working with the rsbuild (webpack) configuration for all apps, which was a bit **time-consuming** and **error-prone**. It would be great if Zephyr could automate this process across the usage of different bundlers; something similar to what NX cli does when adding new apps, libraries to a repo would be fantastic
+I had to manually configure the Module Federation plugin when working with the rsbuild (webpack) configuration for all apps, which was a bit **time-consuming** and **error-prone**. The usage of [MF Generation](https://docs.zephyr-cloud.io/tutorials/create-mf-app#create-a-module-federation-app) is quite useful and promotes a more stright forward configuration of micro-frontend out of the box. 
 
 # Observations 
 1. I noticed the generated UIDs for the Urls versioning of the apps have a fixed length which crops the url after modifying the name of my **providers**, **consumers** and **applications** accordingly. It would be an excellent idea to mention that sticking to short names is recommended to maintain a descriptive project. 
