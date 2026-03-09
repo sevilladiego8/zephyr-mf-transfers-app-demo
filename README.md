@@ -31,7 +31,7 @@ The example is basically a demo transfers app with different pages which can be 
 
 1. Install the necessary dependencies using `pnpm install`(recommended) or `npm install`.
 2. Install dependecies in `root` directory
-3. Install dependecies on each app `./apps/*`
+3. Install dependecies on each **app** by running `npm run install-deps`
 4. run `pnpm run dev`
 
 # Deployment

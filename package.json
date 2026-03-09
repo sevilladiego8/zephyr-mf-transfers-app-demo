@@ -4,7 +4,7 @@
   "description": "Rsbuild Module Federation example with Zephyr",
   "private": true,
   "scripts": {
-    "install-deps": "cd ./apps/balances && pnpm install & cd ./apps/consumer && pnpm install & cd ./apps/ledge && pnpm install & cd ./apps/reports && pnpm install & cd ./apps/settings && pnpm install & cd ./apps/shared-ui && pnpm install & cd ./apps/transfers && pnpm install & pnpm install",
+    "install-deps": "pnpm -C apps/balances install && pnpm -C apps/consumer install && pnpm -C apps/ledge install && pnpm -C apps/reports install && pnpm -C apps/settings install && pnpm -C apps/shared-ui install && pnpm -C apps/transfers install && pnpm install",
     "build": "pnpm build-shared-ui && pnpm build-transfers && pnpm build-balances && pnpm build-reports && pnpm build-ledger && pnpm build-settings && pnpm build-consumer",
     "build-shared-ui": "pnpm --filter=shared-ui-app11 build",
     "build-transfers": "pnpm --filter=transfers-app11 build",
@@ -15,6 +15,7 @@
     "build-consumer": "pnpm --filter=consumer-shell11 build",
     "dev-ui": "pnpm --filter=shared-ui-app11 dev",
     "dev-apps": "pnpm --filter=transfers-app11 dev & pnpm --filter=balances-app11 dev & pnpm --filter=reports-app11 dev & pnpm --filter=ledger-app11 dev & pnpm --filter=settings-app11 dev & pnpm --filter=consumer-shell11 dev",
+    "dev-consumer": "pnpm --filter=consumer-shell11 dev",
     "dev": "pnpm --filter=shared-ui-app11 dev & pnpm --filter=transfers-app11 dev & pnpm --filter=balances-app11 dev & pnpm --filter=reports-app11 dev & pnpm --filter=ledger-app11 dev & pnpm --filter=settings-app11 dev & pnpm --filter=consumer-shell11 dev"
   },
   "keywords": [
