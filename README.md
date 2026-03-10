@@ -46,12 +46,12 @@ The example is basically a demo transfers app with different pages which can be 
 
 ## Federated Transfers App with Zaphyr, NX, Rspack and React
 
-- Consumer Shell - https://ds-dev-1141-consumer-zephyr-nx-mf-transfers-app-d-9cb842024-ze.zephyrcloud.app/
-  - Transfers App - https://ds-dev-1140-transfers-zephyr-nx-mf-transfers-app--676bbb770-ze.zephyrcloud.app/
-  - Balances App - https://ds-dev-1137-balances-zephyr-nx-mf-transfers-app-d-91b5a04ae-ze.zephyrcloud.app/
-  - Reports App - https://ds-dev-1138-reportss-zephyr-nx-mf-transfers-app-d-e6dee4d62-ze.zephyrcloud.app/
-  - Ledger App - https://ds-dev-1139-ledger-zephyr-nx-mf-transfers-app-dem-90885ff94-ze.zephyrcloud.app/
-  - Settings App - https://ds-dev-1136-settings-zephyr-nx-mf-transfers-app-d-02ce4ef5d-ze.zephyrcloud.app
+- Consumer Shell - https://ds-dev-1153-consumer-zephyr-nx-mf-transfers-app-d-3243ebce5-ze.zephyrcloud.app/
+  - Transfers App - https://ds-dev-1152-transfers-zephyr-nx-mf-transfers-app--676bbb770-ze.zephyrcloud.app/
+  - Balances App - https://ds-dev-1150-balances-zephyr-nx-mf-transfers-app-d-91b5a04ae-ze.zephyrcloud.app/
+  - Reports App - https://ds-dev-1149-reportss-zephyr-nx-mf-transfers-app-d-e6dee4d62-ze.zephyrcloud.app/
+  - Ledger App - https://ds-dev-1151-ledger-zephyr-nx-mf-transfers-app-dem-90885ff94-ze.zephyrcloud.app/
+  - Settings App - https://ds-dev-1148-settings-zephyr-nx-mf-transfers-app-d-9b76c41ab-ze.zephyrcloud.app/
 
 See repo here: [Federated Transfers App with Zaphyr, NX, Rspack and React Repo](https://github.com/sevilladiego8/zephyr-nx-mf-transfers-app-demo)
 
