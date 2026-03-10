@@ -5,7 +5,7 @@
 
 Zephyr is a quite interesting tool because it helps solve different problems and complexities related to micro-frontends and module federation.
 
-It provides a variety of features that make it easier, less cumbersome, to implement/configure micro-frontends, such as:
+It provides a variety of features that make it easier and less arduous, to implement/configure micro-frontends, such as:
 
 - instant deployment
 - dependency resolution
@@ -53,7 +53,7 @@ After these changes, the comsumer stopped loading the providers correctly for so
 
 ## 3. [mf-nx-rspack](https://github.com/ZephyrCloudIO/zephyr-examples/tree/main/nx/examples/mf-nx-rspack)
 
-I didn't have any issues modifying the NX example, I was able to add more apps with no problem and deployed it to zephyr cloud with no problems. ✅✅
+I didn't have issues modifying the NX example. I was able to add more apps using the nx generator and deployed them to zephyr cloud, however the configuration of new apps was quite laborious ✅✅ 
 
 ## 4.SSR
 
