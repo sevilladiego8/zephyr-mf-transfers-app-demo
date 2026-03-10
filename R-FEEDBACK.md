@@ -5,13 +5,15 @@
 
 Zephyr is a quite interesting tool because it helps solve different problems and complexities related to micro-frontends and module federation.
 
-It provides a variety of features that make it easier to implement micro-frontends, such as:
+It provides a variety of features that make it easier, less cumbersome, to implement/configure micro-frontends, such as:
 
 - instant deployment
 - dependency resolution
 - seamless version management
 - framework agnostic
 - handles Module Federation configuration across multiple bundlers (Webpack, Vite, Rspack, Rollup, etc).
+
+The micro-frontends approach for a project has advantages, but it comes with high complexity in particular when it comes to configuration.
 
 # Feedback
 

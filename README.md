@@ -44,7 +44,22 @@ The example is basically a demo transfers app with different pages which can be 
 
 # Deployed Apps (Links)
 
-## MF React Transfers Demo App
+## Federated Transfers App with Zaphyr, NX, Rspack and React
+
+- Consumer Shell - https://ds-dev-1141-consumer-zephyr-nx-mf-transfers-app-d-9cb842024-ze.zephyrcloud.app/
+  - Transfers App - https://ds-dev-1140-transfers-zephyr-nx-mf-transfers-app--676bbb770-ze.zephyrcloud.app/
+  - Balances App - https://ds-dev-1137-balances-zephyr-nx-mf-transfers-app-d-91b5a04ae-ze.zephyrcloud.app/
+  - Reports App - https://ds-dev-1138-reportss-zephyr-nx-mf-transfers-app-d-e6dee4d62-ze.zephyrcloud.app/
+  - Ledger App - https://ds-dev-1139-ledger-zephyr-nx-mf-transfers-app-dem-90885ff94-ze.zephyrcloud.app/
+  - Settings App - https://ds-dev-1136-settings-zephyr-nx-mf-transfers-app-d-02ce4ef5d-ze.zephyrcloud.app
+
+See repo here: [Federated Transfers App with Zaphyr, NX, Rspack and React Repo](https://github.com/sevilladiego8/zephyr-nx-mf-transfers-app-demo)
+
+
+## Federated Transfers Demo App with Zaphyr, RsBuild and React 
+
+
+> NOTE: the consumer app deployment has an issue and micro-frontends don't load at this moment. I might need to investigate more what is hapening since I built and tested the app serveral times. 
 
 Watch the video demo: Navigation -> Zephyr Cloud Dashboard -> Shared UI
 
@@ -59,7 +74,3 @@ Watch the video demo: Navigation -> Zephyr Cloud Dashboard -> Shared UI
   - Settings App - https://ds-dev-949-settings-app11-zephyr-mf-transfers-app-cd2ad3d94-ze.zephyrcloud.app/
 
 ## [NX Simple App](https://docs.zephyr-cloud.io/integrations/react-rspack-nx)
-
-- Host - https://ds-dev-156-mf-nx-rspack-host-react-nx-rspack-mf-1-6e713216c-ze.zephyrcloud.app/
-  - Remote 1 - https://ds-dev-154-remote1-react-nx-rspack-mf-1-sevilladi-08d99aaad-ze.zephyrcloud.app/
-  - REmote 2 - https://ds-dev-155-remote2-react-nx-rspack-mf-1-sevilladi-eb2c9e249-ze.zephyrcloud.app/
