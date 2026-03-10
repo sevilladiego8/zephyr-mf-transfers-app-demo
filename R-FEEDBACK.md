@@ -44,7 +44,7 @@ I had a consistent/blocker bug 🐛🐛 testing this example. When I first clone
   <img src="./imgs/providers-error-2.png" alt="not loading providers 2"/>
 </p>
 
-The comsumer suddenly stopped loading the providers correctly for some reason. I built the apps again and checked whether everything was setup correctly according to the docs, but i didn't make any progress. Hence one solution I found to solve this was to rename my local `package.json` project name and the `providers` (apps) in order to generate a new project with fresh apps created in my `zephyr cloud dashboard`. 
+After these changes, the comsumer stopped loading the providers correctly for some reason. I built the apps again and checked whether everything was setup correctly according to the docs, but i didn't make any progress. Hence one solution I found to solve this was to rename my local `package.json` project name and the `providers` (apps) in order to generate a new project with fresh apps created in my `zephyr cloud dashboard`. 
 
 <p align="center"> 
   <img src="./imgs/providers-tmp-solution.png" alt="renaming project and providers" />

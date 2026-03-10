@@ -72,5 +72,3 @@ Watch the video demo: Navigation -> Zephyr Cloud Dashboard -> Shared UI
   - Reports App - https://ds-dev-947-reports-app11-zephyr-mf-transfers-app--7d608ea37-ze.zephyrcloud.app/
   - Ledger App - https://ds-dev-948-ledger-app11-zephyr-mf-transfers-app-d-983993f85-ze.zephyrcloud.app/
   - Settings App - https://ds-dev-949-settings-app11-zephyr-mf-transfers-app-cd2ad3d94-ze.zephyrcloud.app/
-
-## [NX Simple App](https://docs.zephyr-cloud.io/integrations/react-rspack-nx)
